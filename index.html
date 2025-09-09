@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <title>Would You Rather?</title>
+   <link rel="stylesheet" href="styles.css" />
+ </head>
+ <body>
+   <main>
+     <h1 id="title">Would You Rather?</h1>
+       <p id="description">The game where you decide between 2 horrible options.</p>
+   </main>
+
+
+       <form id="survey-form">
+         <fieldset class="basic-info">
+           <legend  >Basic Info</legend>
+           <label for="name" id="name-label" />Enter Name:  <input required id="name" type="text" placeholder="Joe Shmo" /></label>
+           <label for="email" id="email-label" > Enter Email: <input id="email" name="email" required type="email" placeholder="joeshmo@example.com" /></label>
+           <label for="number" id="number-label" >Enter Age: <input id="number" type="number" placeholder="25" min="13" max=
+           "120" /></label>
+         </fieldset>
+
+
+<!--Dropdown element-->
+         <fieldset>
+
+
+           <legend>Would you rather have universal respect or unlimited power? </legend>
+
+
+           <label for="q1" >
+             <select id="dropdown" name="q1" >
+             <option value="">(select one)</option>
+             <option value="1">Universal respect</option>
+             <option value="2">Unlimited power</option>
+             </select>
+           </label>
+         </fieldset>
+
+
+<!--Radio element -->
+         <fieldset>
+           <legend>Would you rather have a pause button or rewind button in your life?</legend>
+
+
+           <label for="pause-button"><input type="radio" name="q2-answer" checked id="pause-button" value="pause-button" />Pause button</label>
+
+
+           <label for="rewind-button" name="q2-answer" id="rewind-button" /><input type="radio" name="q2-answer" id="rewind-button" value="rewind-button" /> Rewind buttton</label>
+         </fieldset>
+
+
+<!--Checkbox element-->
+         <fieldset>
+           <legend>Would you rather always have a full tank of gas or full phone battery?</legend>
+             <input type="checkbox" id="full-tank" class="full-tank" name="q3" value="full-tank" <label for="full-tank" class="q3" >Full tank</label>
+             <input type="checkbox" class="full-battery" value="full-battery" id="full-battery" name="q3"><label class="q3" for="full-battery" >Full phone battery</label>
+         </fieldset>
+<!--End of Checkbox element-->
+
+
+<!--Textarea element-->
+         <fieldset>
+           <legend>Write your own Would You Rather question.</legend>
+             <textarea id="unique-question" name="unique-question" rows="4" cols="30" placeholder="Would you rather eat a lemon or a lime?"></textarea>
+         </fieldset>
+
+
+<!--Submit Button element-->
+         <input id="submit" type="submit" value="Submit" class="submit" />
+
+
+       </form>
+
+
+ </body>
+
+
+</html>
