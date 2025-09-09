@@ -1,0 +1,93 @@
+body {
+ font-family: "Calibri";
+ font-size: 16px;
+ font-weight: bold;
+ background-color: #333344;
+ color: #ff7a29;
+ background-image: url(https://media.istockphoto.com/id/1177323484/vector/seamless-pattern-with-hand-drawn-doodle-questions-marks-vector-illustration.jpg?s=612x612&w=is&k=20&c=Wb_T0e58SCiZ_wlnMPK9fucr6RNaC1LrzBkYQjhDWhQ=);background-blend-mode: multiply;
+}
+
+
+.basic-info {
+ margin-top: .1em;
+ font-size: 18px;
+ padding: 0 1.2rem;
+ display: inline;
+ width: 90%;
+}
+
+
+input[type=text], input[type=email], input[type=number] {
+ margin-bottom: 1rem;
+ width: 100%;
+}
+
+
+select {
+ display: center;
+ width: 100%;
+ min-height: 2em
+}
+
+
+form {
+ margin: 0 auto;
+ max-width: 500px;
+ min-width: 300px;
+ width: 60vw;
+ border: 0;
+ padding: 2rem 0;
+}
+
+
+label {
+ display: block;
+}
+
+
+legend {
+ margin: auto;
+ font-size: 20px;
+ padding: 1rem
+}
+
+
+h1, p, legend {
+ text-align: center;
+}
+
+
+/*sort out the lines. the full tank and full battery need to be formatted better*/
+
+
+.full-tank {
+ padding: 2rem;
+}
+
+
+input[type="checkbox"] {
+ display: block;
+ vertical-align: left;
+}
+
+
+textarea {
+ background-color: white;
+ color: black;
+ width: 100%;
+ min-height: 6rem;
+}
+
+
+input[type=submit] {
+ text-align: center;
+ display: block;
+ width: 50%;
+ margin: 2em auto;
+ height: 3em auto;
+ font-size: 1.75rem;
+ background-color: purple;
+ color: white;
+ border-color: white;
+ min-width: 275px;
+}
